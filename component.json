@@ -2,11 +2,11 @@
   "name": "testeapp",
   "version": "0.0.1",
   "author": "Luiz Carlos Ramalho",
-  "homepage": "https://github.com/mestr3/testeapp",
+  "homepage": "https://github.com/mestr3/teste_final",
   "main": "./",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mestr3/testeapp.git"
+    "url": "git://github.com/mestr3/teste_final.git"
   },"ignore": [
       "images/"
     ],
