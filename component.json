@@ -1,0 +1,14 @@
+{
+  "name": "testeapp",
+  "version": "0.0.1",
+  "author": "Luiz Carlos Ramalho",
+  "homepage": "https://github.com/mestr3/testeapp",
+  "main": "./",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mestr3/testeapp.git"
+  },"ignore": [
+      "images/"
+    ],
+  "license": "None"
+}

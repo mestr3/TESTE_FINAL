@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>APPontamentos - Teknisa APP</title>
+  <link rel="stylesheet" href="gridism.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="wrap">
+
+  <header id="header">
+    <div class="grid no-gutters">
+      <div class="unit whole">
+		<div id="page-title" class="unit four-fifths">
+			<a data-href="#sidebar" href="" ></a><h1>Apontamentos</h1>
+		</div>
+		<div id="logo" class="unit one-fifth"> 
+			<img src="images/logo.png"/>
+		</div>
+      </div>
+    </div>
+  </header>
+
+	<nav id="nav" class="grid no-gutters">
+		<ul id="navbar">
+			<li class="menulink unit one-third"><a class="icone-agenda noactive">Agenda</a></li>
+			<li class="menulink unit one-third"><a class="icone-apontamento active">Apontamento</a></li>
+			<li class="menulink unit one-third"><a class="icone-atividades noactive">Atividades</a></li>
+		</ul>
+	</nav>
+	<section id="wrapper">
+		<form action="" method="POST">
+			<div class="grid">
+				<label for="data-serv" class="unit one-third">
+					Data do Serviço<br />
+					<input type="text" id="data-serv" name="data-serv" class="mini required" value="">
+				</label>
+				<label for="data-func" class="unit two-thirds">
+					Funcionário<br />
+					<input type="text" id="data-func" name="data-func" class="big"value="">
+				</label>
+			
+			</div>
+			
+			<div class="grid">
+				<label for="data-cod" class="unit one-third">
+					Cod. cliente<br />
+					<input type="text" id="data-cod" name="data-cod" class="mini required" value="">
+				</label>
+				<label for="data-cli" class="unit two-thirds">
+					Nome do Cliente<br />
+					<input type="text" id="data-cli" name="data-cli" class="big"value="">
+				</label>
+			
+			</div>
+			
+			<div class="grid">
+				<label for="data-contr" class="unit one-third">
+					Contrato<br />
+					<input type="text" id="data-contr" name="data-contr" class="mini required" value="">
+				</label>
+				<label for="data-proj" class="unit two-thirds">
+					Projeto<br />
+					<input type="text" id="data-proj" name="data-proj" class="big required" value="">
+				</label>
+			</div>
+			
+			<div class="grid">
+				<label for="data-trab" class="unit one-third">
+					Posto de trabalho<br />
+					<input type="text" id="data-trab" name="data-trab" class="mini required" value="">
+				</label>
+				<label for="data-trabd" class="unit two-thirds">
+					<br />
+					<input type="text" id="data-trabd" name="data-trabd" class="big" value="">
+				</label>
+			
+			</div>
+			
+			<div class="grid">
+				<label for="data-repres" class="unit whole">
+					Representante do cliente<br />
+					<select id="data-repres" name="data-repres" class="required">
+						<option value="">selecione...</option>
+						<option value="Antônio Pedro">Antônio Pedro</option>
+						<option value="João da Silva">João da Silva</option>
+						<option value="Jorge Augusto">Jorge Augusto</option>
+						<option value="Marietta Severo">Marietta Severo</option>
+						<option value="Paulo Perreira">Paulo Perreira</option>
+					</select>
+				</label>
+			
+			</div>
+			
+			<div class="grid">
+				<label for="data-tserv" class="unit one-third">
+					Tipo de serviço<br />
+					<input type="text"  id="data-tserv" name="data-tserv" class="mini required" value="">
+				</label>
+				<label for="data-tservd" class="unit two-thirds">
+					<br />
+					<input type="text" id="data-tserd" name="data-tservd" class="big" value="">
+				</label>
+			
+			</div>
+			
+			<div class="grid">
+				<label for="data-obs" class="unit whole">
+					Observações<br />
+					<textarea id="data-obs" name="data-obs" class="big required"value=""></textarea>
+				</label>
+			</div>
+			<div class="grid">
+				<div for="data-tserv" class="unit half">
+					<span><img class="atividades" src="images/relogio.png"/><span><input id="add" type="submit" class="add" value="Adicionar Atividades">
+				</div>
+				
+			</div>
+			
+		</form>
+	</section>
+	<footer id="footer">
+		<div class="grid">
+			<div  class="unit one-third">
+				<span><img class="confirmar" src="images/ok.png"/><span><input type="submit" id="btn-confirmar" class="bt confirmar" value="Confirmar">
+			</div>
+			<div class="unit one-third">
+			</div>
+			<div class="unit one-third">
+				<span><img class="confirmar" src="images/del.png"/><span><input type="reset" id="btn-excluir" class="bt excluir" value="Excluir">
+			</div>
+		
+		</div>
+	</footer>      
+ </body>
+</html>
